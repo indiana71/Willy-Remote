@@ -26,7 +26,7 @@ ESP8266WebServer server(80);      // Create a webserver object that listens for 
 unsigned long previousMillis = 0;
 
 String sta_ssid = "*** IL TUO SSID DELLA RETE WIFI ***";      // set Wifi networks you want to connect to
-String sta_password = "*** LA TUA PASSWORD DEL WIFI ***";  // set password for Wifi networks 
+String sta_password = "*** LA TUA PASSWORD DELLA RETE WIFI ***";  // set password for Wifi networks 
 
 
 void setup(){
